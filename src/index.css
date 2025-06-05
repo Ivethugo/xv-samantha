@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=MonteCarlo");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Elsie:wght@400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap");
+@import "tailwindcss";
+@plugin "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+
+@theme {
+  /* Colors */
+  --color-base-50: #dcd9ee;
+  --color-base-100: #9478ac;
+  --color-base-200: oklch(29.1% 0.149 302.717);
+  --color-base-100-hex: #e0e7ff;
+  --color-gold: #c1a56e;
+  --color-white-50: oklch(98.5% 0.001 106.423);
+
+  /* Fonts */
+  --font-monteCarlo: "MonteCarlo";
+  --font-cinzel: "Cinzel";
+  --font-cinzelDecorative: "Cinzel Decorative";
+  --font-elsie: "Elsie";
+  --font-josefinSlab: "Josefin Slab";
+  --font-greatVibes: "Great Vibes";
+
+  /* Breakpoints */
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
+}
+
+:root {
+  display: block;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.firstName-style {
+  @apply font-monteCarlo text-6xl text-base-100;
+}
