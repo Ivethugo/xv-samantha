@@ -6,8 +6,8 @@ function App() {
     <>
       <Audio />
       <Routes>
-        <Route path="xv-samantha/" element={<Loading />} />
-        <Route path="xv-samantha/main" element={<Main />} />
+        <Route path="/" element={<Loading />} />
+        <Route path="/main" element={<Main />} />
       </Routes>
     </>
   );
