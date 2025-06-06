@@ -5,14 +5,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap");
 @import "tailwindcss";
-@plugin "flowbite-react/plugin/tailwindcss";
-@source "../.flowbite-react/class-list.json";
 
 @theme {
   /* Colors */
-  --color-base-50: #dcd9ee;
-  --color-base-100: #9478ac;
-  --color-base-200: oklch(29.1% 0.149 302.717);
+  --color-base-50: oklch(0.894 0.0287 292.37); /* #dcd9ee */
+  --color-base-100: oklch(0.6184 0.0828 308.67); /* #9478ac */
+  --color-base-200: oklch(29.1% 0.149 302.717); /* #3c0366 */
   --color-base-100-hex: #e0e7ff;
   --color-gold: #c1a56e;
   --color-white-50: oklch(98.5% 0.001 106.423);

@@ -11,23 +11,23 @@ export function Start() {
         startRef.current,
         {
           y: 200,
-          opacity: 0
+          opacity: 0,
         },
         {
           y: 0,
           opacity: 1,
           duration: 1.5,
-          ease: "power2.out"
+          ease: "power2.out",
         }
       );
     }
   }, []);
 
   return (
-    <div 
-      id="start-section" 
+    <div
+      id="start-section"
       ref={startRef}
-      className="flex flex-col items-center scroll-mt-52"
+      className="flex flex-col items-center scroll-mt-52 pb-30"
     >
       <FlowersCircle />
       <Countdown />

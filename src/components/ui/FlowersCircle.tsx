@@ -6,13 +6,13 @@ export function FlowersCircle() {
       {/* Apply default (small) size and lg: prefix for larger size */}
       <div className="w-[360px] h-[500px] flex flex-col justify-center items-center relative">
         <img src={FlowersCircleImage} alt="FlowersCircleImage" />
-        <div className="absolute font-cinzel font-semibold top-30">
+        <div className="absolute font-cinzel font-semibold top-30 text-base-200">
           {import.meta.env.VITE_EVENT_NAME}
         </div>
-        <div className="absolute pr-10 top-40 text-black font-monteCarlo text-6xl">
+        <div className="absolute pr-10 top-40 font-monteCarlo text-6xl text-base-200">
           {import.meta.env.VITE_FIRST_NAME}
         </div>
-        <div className="absolute top-53 pt-10 font-cinzel font-semibold">
+        <div className="absolute top-53 pt-10 font-cinzel font-semibold text-base-200">
           {import.meta.env.VITE_DATE_STRING}
         </div>
       </div>

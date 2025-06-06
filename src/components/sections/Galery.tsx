@@ -27,7 +27,7 @@ export function Galery() {
         image,
         {
           x: index % 2 === 0 ? -50 : 50,
-          rotation: index % 2 === 0 ? -30 : 30,
+          rotation: index % 2 === 0 ? 0 : 0,
           opacity: 0,
         },
         {

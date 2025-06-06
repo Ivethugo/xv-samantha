@@ -80,7 +80,7 @@ export function Introduce() {
   return (
     <section
       id="introduce-section"
-      className="flex flex-col gap-5 justify-center items-center pt-30 pb-10 scroll-mt-20"
+      className="bg-white-50 flex flex-col gap-5 justify-center items-center scroll-mt-20"
     >
       <div className="w-full flex flex-col gap-1">
         <div className="w-full h-[1px] bg-gold" />

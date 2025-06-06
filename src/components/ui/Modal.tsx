@@ -1,8 +1,7 @@
 import { motion, AnimatePresence } from "framer-motion";
 import Lottie from "lottie-react";
 import Sound from "../../assets/animated-icons/sound.json";
-import { Button } from "flowbite-react/components/Button";
-import { useAudio } from "../../index";
+import { useAudio, Button } from "../../index";
 import { useState } from "react";
 
 export function Modal() {
@@ -19,7 +18,7 @@ export function Modal() {
     <AnimatePresence>
       {openModal && (
         <div
-          className="fixed inset-0 bg-black/50 flex items-start justify-center p-4 select-none"
+          className="fixed inset-0 flex items-start justify-center p-4 select-none"
           style={{ zIndex: 1000, pointerEvents: "auto" }}
         >
           <motion.div
@@ -27,7 +26,7 @@ export function Modal() {
             animate={{ y: 0, opacity: 1 }}
             exit={{ y: -1000, opacity: 0 }}
             transition={{ duration: 0.5 }}
-            className="bg-white rounded-lg p-6 max-w-sm w-full"
+            className="bg-white rounded-lg p-6 max-w-sm w-full border-1 border-gold shadow-lg"
           >
             <div className="flex justify-center">
               <Lottie animationData={Sound} loop={true} className="w-30 h-30" />
@@ -37,17 +36,16 @@ export function Modal() {
             </p>
             <div className="w-full h-full flex flex-row justify-end items-center gap-5 pr-10">
               <Button
-                outline
-                color="failure"
+                w="w-[80px]"
+                border={false}
                 onClick={() => handleClick(false)}
-                className="text-gold active:text-base-100 focus:text-base-100"
               >
                 No
               </Button>
               <Button
-                outline
+                w="w-[120px]"
+                border={true}
                 onClick={() => handleClick(true)}
-                className="border-gold text-gold hover:bg-base-100 hover:border-base-100"
               >
                 Si, deacuerdo!
               </Button>

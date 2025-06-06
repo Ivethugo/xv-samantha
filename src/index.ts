@@ -13,6 +13,7 @@ export * from "./components/sections/Navbar";
 export * from "./components/sections/Schedule";
 export * from "./components/sections/Start";
 export * from "./components/ui/Audio";
+export * from "./components/ui/Button";
 export * from "./components/ui/Card";
 export * from "./components/ui/Countdown";
 export * from "./components/ui/EndText";

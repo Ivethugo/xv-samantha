@@ -1,8 +1,7 @@
-import { useGuest } from "../../index.ts";
+import { useGuest, Button } from "../../index.ts";
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
-import { Button } from "flowbite-react/components/Button";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -11,12 +10,10 @@ export function Guest() {
   const containerRef = useRef<HTMLDivElement>(null);
 
   const sendMessage = () => {
-    const phoneNumber = "522227160481";
+    const phoneNumber = "522229029108";
     const message = encodeURIComponent(
       `Hola buen día, por este medio me gustaría confirmar mi asistencia 
-a los xv años de Samantha que se celebrarán el día ${
-        import.meta.env.VITE_DATE_STRING_CAPITAL
-      }
+a los xv años de Samantha que se celebrarán el día 19 de Julio del 2025.
       
     Mis datos personales son:
       
@@ -83,9 +80,10 @@ a los xv años de Samantha que se celebrarán el día ${
         </div>
 
         <Button
+          w="w-[180px]"
+          border={true}
           onClick={sendMessage}
-          outline
-          className="flex justify-center items-center gap-1 bg-base-200 text-white border-gold hover:bg-base-100 focus:bg-base-100 active:bg-base-100"
+          classNames="flex justify-center items-center gap-1"
         >
           {import.meta.env.VITE_TEXT_BUTTON}
         </Button>

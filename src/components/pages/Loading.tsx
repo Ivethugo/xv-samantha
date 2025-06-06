@@ -2,12 +2,11 @@ import { useState } from "react";
 import BgImage from "../../assets/images/loading/loading.jpg";
 import EnvLeft from "../../assets/images/loading/env_left.png";
 import EnvRight from "../../assets/images/loading/env_right.png";
-import { useAudio, CountUp, BlurText, OpenButton, useGuest } from "../../index";
+import { useAudio, CountUp, BlurText, OpenButton } from "../../index";
 import { AnimatePresence, motion } from "framer-motion";
 import { useNavigate } from "react-router";
 
 export function Loading() {
-  const { code } = useGuest();
   const { isReady } = useAudio();
   const navigate = useNavigate();
   const [isClosing, setIsClosing] = useState(false);
@@ -25,7 +24,7 @@ export function Loading() {
     setEndAnimation(false);
     setIsClosing(true);
     setTimeout(() => {
-      navigate(`/main${`/?code=${code}`}`);
+      navigate(`/main`);
     }, 1000);
   };
 
@@ -35,6 +34,7 @@ export function Loading() {
         className="w-screen h-screen bg-cover bg-center flex flex-col justify-center items-center"
         style={{ backgroundImage: `url(${BgImage})` }}
       >
+        <div className="w-full h-full opacity-[0.8] bg-white relative" />
         {isReady && (
           <>
             <div className="w-full h-full opacity-[0.8] bg-white relative" />

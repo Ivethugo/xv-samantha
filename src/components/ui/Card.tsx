@@ -1,4 +1,4 @@
-import { Button } from "flowbite-react/components/Button";
+import { Button } from "../ui/Button";
 
 type CardProps = {
   title: string;
@@ -61,25 +61,30 @@ export function Card({
           className="inline-block transform-gpu rounded-lg transition-transform duration-300 hover:scale-105"
         />
       </div>
-      <div className="flex flex-col gap-5 font-josefinSlab">
+      <div className="flex flex-col gap-5">
         <h1 className={midTitleStyle}>{place}</h1>
         <div className="flex flex-col justify-center items-center">
-          <div>
-            <span className="font-bold text-center">{timeText} </span>
+          <div className="font-josefinSlab">
+            <span className="font-bold text-center font-josefinSlab">
+              {timeText}{" "}
+            </span>
             {timeValue}
           </div>
-          <div className="text-center">
-            <span className="font-bold text-center">{addressText} </span>
+          <div className="text-center font-josefinSlab">
+            <span className="font-bold text-center font-josefinSlab">
+              {addressText}{" "}
+            </span>
             {addressValue}
           </div>
-          <div className="text-center">{addressValue2}</div>
-          <div className="text-center">{addressValue3}</div>
+          <div className="text-center font-josefinSlab">{addressValue2}</div>
+          <div className="text-center font-josefinSlab">{addressValue3}</div>
         </div>
         <div className="flex justify-center">
           <Button
+            w="w-[140px]"
+            border={true}
             onClick={() => googleMaps({ location })}
-            outline
-            className="flex justify-center items-center gap-1 bg-base-200 text-white border-gold hover:bg-base-100 focus:bg-base-100 active:bg-base-100"
+            classNames="flex justify-center items-center gap-1"
           >
             <div className="text-[13px]">{textButton}</div>
             <span className={`${iconName}`}></span>

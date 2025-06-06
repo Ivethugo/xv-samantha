@@ -17,7 +17,7 @@ export function Locations() {
       gsap.fromTo(
         card1Ref.current,
         {
-          x: 50,
+          x: 0,
           rotation: 0,
           opacity: 0,
         },
@@ -41,12 +41,12 @@ export function Locations() {
       gsap.fromTo(
         card2Ref.current,
         {
-          x: -50,
+          y: 30,
           rotation: 0,
           opacity: 0,
         },
         {
-          x: 0,
+          y: 0,
           rotation: 0,
           opacity: 1,
           duration: 1.2,

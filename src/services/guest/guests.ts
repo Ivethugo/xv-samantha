@@ -189,4 +189,9 @@ export const guests = [
     name: "Marisol Peña",
     tickets: 4,
   },
+  {
+    code: "nadiaberistain",
+    name: "Nadia Beristain",
+    tickets: 2,
+  },
 ];
