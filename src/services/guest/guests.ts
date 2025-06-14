@@ -27,7 +27,7 @@ export const guests = [
   {
     code: "venanciolagunes",
     name: "Venancio Lagunes",
-    tickets: 5,
+    tickets: 3,
   },
   {
     code: "juanortega",
@@ -57,7 +57,7 @@ export const guests = [
   {
     code: "yolandagonzales",
     name: "Yolanda Gonzales",
-    tickets: 5,
+    tickets: 6,
   },
   {
     code: "noebarrios",
@@ -75,18 +75,18 @@ export const guests = [
     tickets: 4,
   },
   {
-    code: "marianabaez",
-    name: "Mariana Baez",
-    tickets: 3,
+    code: "neftaligarcia",
+    name: "Neftali Garcia",
+    tickets: 4,
   },
   {
     code: "victorbaez",
     name: "Victor Baez",
-    tickets: 3,
+    tickets: 2,
   },
   {
-    code: "ernestoorduno",
-    name: "Ernesto Orduño",
+    code: "ernertoarroyo",
+    name: "Ernerto Arroyo",
     tickets: 5,
   },
   {
@@ -190,8 +190,33 @@ export const guests = [
     tickets: 4,
   },
   {
+    code: "adanabascal",
+    name: "Adan Abascal",
+    tickets: 4,
+  },
+  {
+    code: "eduardoortega",
+    name: "Eduardo Ortega",
+    tickets: 3,
+  },
+  {
+    code: "victorabascal",
+    name: "Victor Abascal",
+    tickets: 3,
+  },
+  {
     code: "nadiaberistain",
     name: "Nadia Beristain",
     tickets: 2,
+  },
+  {
+    code: "maricruzperez",
+    name: "Maricruz Perez",
+    tickets: 4,
+  },
+  {
+    code: "noemilagunes",
+    name: "Noemi Lagunes",
+    tickets: 5,
   },
 ];

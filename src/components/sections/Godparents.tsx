@@ -87,7 +87,7 @@ export function Godparents() {
             </div>
           </div>
         ) : null}
-        {code === "luismartinez" ? (
+        {code === "AAAAA" ? (
           <div
             ref={parentsBoxRef}
             className="w-[300px] h-[100px] flex flex-col justify-center gap-3 text-center bg-smoth-gold border border-gold rounded-[10px]"
