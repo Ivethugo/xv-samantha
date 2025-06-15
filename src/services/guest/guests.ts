@@ -435,7 +435,7 @@ export const guests = [
     tickets: 1,
   },
   {
-    code: "julianmiranda",
+    code: "julianmiranda-hijo",
     name: "Julian Miranda",
     tickets: 2,
   },
