@@ -219,4 +219,294 @@ export const guests = [
     name: "Noemi Lagunes",
     tickets: 5,
   },
+  {
+    code: "juanalejandrez",
+    name: "Juan Alejandrez",
+    tickets: 1,
+  },
+  {
+    code: "margaritaaguilar",
+    name: "Margarita Aguilar",
+    tickets: 1,
+  },
+  {
+    code: "vaniabaez",
+    name: "Vania Baez",
+    tickets: 1,
+  },
+  {
+    code: "andreluna",
+    name: "André Luna",
+    tickets: 1,
+  },
+  {
+    code: "miguelrodriguez",
+    name: "Miguel Rodríguez",
+    tickets: 1,
+  },
+  {
+    code: "ivanaventura",
+    name: "Ivana Ventura",
+    tickets: 1,
+  },
+  {
+    code: "kevinhernandez",
+    name: "Kevin Hernandez",
+    tickets: 1,
+  },
+  {
+    code: "sergioarevalo",
+    name: "Sergio Arevalo",
+    tickets: 1,
+  },
+  {
+    code: "danielalopez",
+    name: "Daniela Lopez",
+    tickets: 1,
+  },
+  {
+    code: "axelmeza",
+    name: "Axel Meza",
+    tickets: 1,
+  },
+  {
+    code: "valeriaalconedo",
+    name: "Valeria Alconedo",
+    tickets: 1,
+  },
+  {
+    code: "christianjimenez",
+    name: "Christian Jimenez",
+    tickets: 1,
+  },
+  {
+    code: "christofermarin",
+    name: "Christofer Marin",
+    tickets: 1,
+  },
+  {
+    code: "emiliovelazquez",
+    name: "Emilio Velazquez",
+    tickets: 1,
+  },
+  {
+    code: "ianmaravillas",
+    name: "Ian Maravillas",
+    tickets: 1,
+  },
+  {
+    code: "omarorduna",
+    name: "Omar Orduña",
+    tickets: 1,
+  },
+  {
+    code: "jonathangomez",
+    name: "Jonathan Gomez",
+    tickets: 1,
+  },
+  {
+    code: "nellyvillegas",
+    name: "Nelly Villegas",
+    tickets: 1,
+  },
+  {
+    code: "lucerorodriguez",
+    name: "Lucero Rodríguez",
+    tickets: 1,
+  },
+  {
+    code: "euridicegonzales",
+    name: "Euridice Gonzales",
+    tickets: 1,
+  },
+  {
+    code: "elizabethvazquez",
+    name: "Elizabeth Vazquez",
+    tickets: 1,
+  },
+  {
+    code: "natalylanda",
+    name: "Nataly Landa",
+    tickets: 1,
+  },
+  {
+    code: "angyguevara",
+    name: "Angy Guevara",
+    tickets: 1,
+  },
+  {
+    code: "kamilugaspar",
+    name: "Kamilu Gaspar",
+    tickets: 1,
+  },
+  {
+    code: "dulceromero",
+    name: "Dulce Romero",
+    tickets: 1,
+  },
+  {
+    code: "josemora",
+    name: "Jose Mora",
+    tickets: 1,
+  },
+  {
+    code: "oscarmoreno",
+    name: "Oscar Moreno",
+    tickets: 1,
+  },
+  {
+    code: "aaronmarquez",
+    name: "Aarón Márquez",
+    tickets: 1,
+  },
+  {
+    code: "josuealdana",
+    name: "Josue Aldana",
+    tickets: 1,
+  },
+  {
+    code: "robertohernandez",
+    name: "Roberto Hernandez",
+    tickets: 1,
+  },
+  {
+    code: "mauricioguerrero",
+    name: "Mauricio Guerrero",
+    tickets: 1,
+  },
+  {
+    code: "josueflores",
+    name: "Josue Flores",
+    tickets: 1,
+  },
+  {
+    code: "feliperodriguez",
+    name: "Felipe Rodríguez",
+    tickets: 3,
+  },
+  {
+    code: "nathalyquintero",
+    name: "Nathaly Quintero",
+    tickets: 2,
+  },
+  {
+    code: "viridianameza",
+    name: "Viridiana Meza",
+    tickets: 4,
+  },
+  {
+    code: "sandyrodriguez",
+    name: "Sandy Rodríguez",
+    tickets: 2,
+  },
+  {
+    code: "juantrujillo",
+    name: "Juan Trujillo",
+    tickets: 4,
+  },
+  {
+    code: "leopoldogonzalez",
+    name: "Leopoldo Gonzalez",
+    tickets: 8,
+  },
+  {
+    code: "gerardoramirez",
+    name: "Gerardo Ramirez",
+    tickets: 5,
+  },
+  {
+    code: "gabrielaaguilar",
+    name: "Gabriela Aguilar",
+    tickets: 2,
+  },
+  {
+    code: "lucerobautista",
+    name: "Lucero Bautista",
+    tickets: 5,
+  },
+  {
+    code: "almaquecholac",
+    name: "Alma Quecholac",
+    tickets: 4,
+  },
+  {
+    code: "julianmiranda",
+    name: "Julian Miranda",
+    tickets: 1,
+  },
+  {
+    code: "julianmiranda",
+    name: "Julian Miranda",
+    tickets: 2,
+  },
+  {
+    code: "margaritadelacruz",
+    name: "Margarita de la Cruz",
+    tickets: 1,
+  },
+  {
+    code: "karenmiranda",
+    name: "Karen Miranda",
+    tickets: 2,
+  },
+  {
+    code: "brayantrujillo",
+    name: "Brayan Trujillo",
+    tickets: 5,
+  },
+  {
+    code: "yokarytrujillo",
+    name: "Yokary Trujillo",
+    tickets: 2,
+  },
+  {
+    code: "isaiasavalos",
+    name: "Isaias Avalos",
+    tickets: 3,
+  },
+  {
+    code: "hildamedina",
+    name: "Hilda Medina",
+    tickets: 3,
+  },
+  {
+    code: "jaimecarranza",
+    name: "Jaime Carranza",
+    tickets: 1,
+  },
+  {
+    code: "brendasanchez",
+    name: "Brenda Sanchez",
+    tickets: 1,
+  },
+  {
+    code: "alejandratorres",
+    name: "Alejandra Torres",
+    tickets: 2,
+  },
+  {
+    code: "carolinatorres",
+    name: "Carolina Torres",
+    tickets: 6,
+  },
+  {
+    code: "anamendieta",
+    name: "Ana Mendieta",
+    tickets: 1,
+  },
+  {
+    code: "ineszarate",
+    name: "Ines Zarate",
+    tickets: 7,
+  },
+  {
+    code: "luismartinez",
+    name: "Luis Martínez",
+    tickets: 5,
+  },
+  {
+    code: "piperaburto",
+    name: "Piper Aburto",
+    tickets: 1,
+  },
 ];
