@@ -497,16 +497,31 @@ export const guests = [
   {
     code: "ineszarate",
     name: "Ines Zarate",
-    tickets: 7,
+    tickets: 4,
   },
   {
     code: "luismartinez-padrino",
     name: "Luis Martínez",
-    tickets: 5,
+    tickets: 7,
   },
   {
     code: "piperaburto",
     name: "Piper Aburto",
+    tickets: 1,
+  },
+  {
+    code: "luisgarcia",
+    name: "Luis Garcia",
+    tickets: 1,
+  },
+  {
+    code: "fabianpuente",
+    name: "Fabian Puente",
+    tickets: 1,
+  },
+  {
+    code: "angelgonzales",
+    name: "Angel Gonzales",
     tickets: 1,
   },
 ];
