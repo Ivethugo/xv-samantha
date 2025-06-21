@@ -524,4 +524,24 @@ export const guests = [
     name: "Angel Gonzales",
     tickets: 1,
   },
+  {
+    code: "beatriztrujillo",
+    name: "Beatriz Trujillo",
+    tickets: 5,
+  },
+  {
+    code: "brayansalas",
+    name: "Brayan Salas",
+    tickets: 1,
+  },
+  {
+    code: "victorortega",
+    name: "Victor Ortega",
+    tickets: 1,
+  },
+  {
+    code: "hugobarrera",
+    name: "Hugo Barrera",
+    tickets: 3,
+  },
 ];
