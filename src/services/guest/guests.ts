@@ -554,4 +554,9 @@ export const guests = [
     name: "Yubisay Marcano",
     tickets: 1,
   },
+  {
+    code: "usielhuerta",
+    name: "Usiel Huerta",
+    tickets: 1,
+  },
 ];
